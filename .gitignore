@@ -27,3 +27,23 @@ replay_pid*
 overview_of_this_project.md
 instruction.md
 logs.md
+
+docs/
+
+### Build ###
+.gradle/
+/build/
+/out/
+
+### IDE ###
+.idea/
+*.iml
+
+### VS Code ###
+.vscode/
+
+### Logs ###
+*.log
+
+### Environment ###
+.env

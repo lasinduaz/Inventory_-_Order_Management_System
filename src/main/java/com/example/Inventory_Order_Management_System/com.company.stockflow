@@ -4,10 +4,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class InventoryOrderManagementSystemApplication {
+public class com.company.stockflow {
 
 	public static void main(String[] args) {
-		SpringApplication.run(InventoryOrderManagementSystemApplication.class, args);
+		SpringApplication.run(com.company.stockflow.class, args);
+		System.out.println("Inventory Order Management System Application is running...");
 	}
 
 }
