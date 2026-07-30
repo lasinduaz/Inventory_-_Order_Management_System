@@ -11,6 +11,7 @@ import java.util.List;
 
 @Entity
 @Table(name = "customers")
+@AttributeOverride(name = "id", column = @Column(name = "customer_id"))
 @Getter
 @Setter
 @NoArgsConstructor

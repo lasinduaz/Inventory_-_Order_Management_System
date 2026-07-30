@@ -10,6 +10,7 @@ import java.util.List;
 
 @Entity
 @Table(name = "categories")
+@AttributeOverride(name = "id", column = @Column(name = "category_id"))
 @Getter
 @Setter
 @NoArgsConstructor
